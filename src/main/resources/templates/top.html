@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Top</title>
+</head>
+<body>
+	<h1>Top</h1>
+	<form method="post" name="putForm" action="/rest">
+    	<input type="hidden" name="_method" value="post">
+        <input type="text" name="postText"> 
+    	<input type="submit" value="POST">
+    </form>
+    <br><br>
+    <form method="get" name="getForm" action="/rest">
+        <label for="getText">GET_TEST</label>
+        <input name="getText"  value="GET_TEST">
+    	<input type="submit" value="GET">
+    </form>
+</body>
+</html>
